@@ -1,0 +1,26 @@
+:root {
+    --sb: hsl(215, 51%, 70%);
+    --c: hsl(178, 100%, 50%);
+    --vdb-main: hsl(217, 54%, 11%);
+    --vdb-card: hsl(216, 50%, 16%);
+    --vdb-line: hsl(215, 32%, 27%);
+    --w: hsl(0, 0%, 100%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    
+}
