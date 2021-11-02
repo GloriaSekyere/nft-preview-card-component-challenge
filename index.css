@@ -6,6 +6,7 @@
     --vdb-line: hsl(215, 32%, 27%);
     --w: hsl(0, 0%, 100%);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +16,129 @@
 body {
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
+    background-color: var(--vdb-main);
 }
 
 main {
-    
+    background-color: var(--vdb-card);
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
 }
 
-@media only screen and (min-width: 1440px) {
-    
+#container {
+    width: 87.5%;
+    margin: 20px auto;
+}
+
+#nft-image-div {
+    width: 100%;
+    height: auto;
+}
+
+#nft-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#title {
+    color: var(--w);
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#description {
+    color: var(--sb);
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#detail-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#price-div {
+    display: flex;
+    align-items: center;
+}
+
+#eth-img-div {
+    width: 17.5px;
+    display: flex;
+    align-items: center;
+}
+
+#eth-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#price {
+    display: inline-block;
+    color: var(--c);
+    font-weight: 600;
+}
+
+#time-div {
+    display: flex;
+    align-items: center;
+}
+
+#clock-img-div {
+    width: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#clock-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#time {
+    display: inline-block;
+    color: var(--sb);
+    font-weight: 300;
+}
+
+#line {
+    margin-top: 15px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--vdb-line);
+}
+
+#creator-detail {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#avatar-div {
+    width:35px;
+    margin-right: 15px;
+}
+
+#avatar {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--w);
+    border-radius: 50%;
+}
+
+#creator {
+    color: var(--sb);
+    font-weight: 300
+}
+
+#creator span {
+    color: var(--w);
 }
