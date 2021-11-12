@@ -170,6 +170,10 @@ main {
 }
 
 @media only screen and (min-width:1440px) {
+main {
+    width: 20%;
+}
+
 #title-link:hover {
     color: var(--c);
 }
