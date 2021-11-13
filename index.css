@@ -75,6 +75,7 @@ main {
     color: var(--w);
     font-size: 20px;
     text-decoration: none;
+    transition: all 1s;
 }
 
 #description {
@@ -161,12 +162,13 @@ main {
 
 #creator {
     color: var(--sb);
-    font-weight: 300
+    font-weight: 300;
 }
 
 #creator a {
     color: var(--w);
     text-decoration: none;
+    transition: all 1s;
 }
 
 @media only screen and (min-width:1440px) {
